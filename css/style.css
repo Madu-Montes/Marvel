@@ -4,17 +4,38 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #1f1f1f;
+.offcanvas-body a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+.offcanvas-body a:hover{
+    background-color: #E23636;
 }
 
 main{
     background-color: #1f1f1f;
+    height: 100vh;
 }
-h1{
-    background-color: aqua;
+.offcanvas-body{
+    background-color: black;
 }
 
 .navbar-logo{
     width: 150px;
+}
+
+.gif{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.container .carousel-inner{
+    width: 100%;
+}
+
+.title{
+    color: #E23636;
 }
