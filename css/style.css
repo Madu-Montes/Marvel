@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+main{
+    background-color: #1f1f1f;
+}
+h1{
+    background-color: aqua;
+}
+
+.navbar-logo{
+    width: 150px;
+}
