@@ -128,3 +128,36 @@ main{
     margin-bottom: 5%;
 }
 
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 220px;
+}
+
+.img-footer{
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+}
+
+.img-footer img{
+    width: 130px;
+    margin-top: 13px;
+}
+
+.voltartopo a{
+    color: #E23636;
+    text-decoration: none;
+}
+
+.voltartopo a:hover{
+    color: #518CCA;
+}
+
+a span{
+    color: #518CCA;
+}
+
+.img-footer h6{
+    font-size: 12px;
+}
+
