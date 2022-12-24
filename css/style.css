@@ -64,17 +64,24 @@ main{
     margin-bottom: 5%;
 }
 
+.historia .timely{
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .left{
     color: white;
 }
 
 .line1{
-    height: 130%;
+    height: 120%;
     border-right: 1px solid rgba(255, 0, 0, 0.603);
 }
 
 .line{
-    height: 100%;
+    height: 95%;
     border-right: 1px solid rgba(255, 0, 0, 0.603);
 }
 
@@ -96,6 +103,7 @@ main{
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     gap: 10px;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -105,7 +113,6 @@ main{
     grid-template-rows: 100%;
     gap: 10px;
     margin-bottom: 5%;
-    background-color: aquamarine;
 }
 
 .heros-area{
@@ -115,9 +122,31 @@ main{
     gap: 10px;
 }
 
-.hero-img img{
-    background-color: aqua;
-    width: 100%;
+.heros-area img{
+    width: 270px;
+}
+
+.heros-area img:hover {
+    width: 290px;
+    transition: 0.8s;
+}
+
+.herois h3{
+    color: white;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.herois audio{
+    background-color: #E23636;
+    padding: 5px;
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .curiosidades{
