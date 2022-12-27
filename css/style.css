@@ -29,9 +29,18 @@ main{
 }
 
 .gif{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.gif:hover{
+    display: none;
+    transition: 0.10s;
+}
+
+.gif-active{
     width: 80%;
     margin-left: 10%;
-    margin-top: 18%;
 }
 
 .carousel-inner{
