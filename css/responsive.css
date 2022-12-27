@@ -9,11 +9,9 @@
 
     .text-hero p{
         font-size: 24px;
-    } 
+    }
    
 }
-
-
 
 @media (min-width: 1536px) and (max-width: 1920px) {
     .title{
@@ -27,8 +25,6 @@
     .text-hero p{
         font-size: 22px;
     } 
-
-    
    
 }
 
