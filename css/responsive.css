@@ -10,6 +10,14 @@
     .text-hero p{
         font-size: 24px;
     }
+
+    .curiosidades p{
+        font-size: 24px;
+    }
+
+    .img-footer a{
+        font-size: 20px;
+    }
    
 }
 
@@ -24,820 +32,274 @@
 
     .text-hero p{
         font-size: 22px;
-    } 
+    }
+
+    .curiosidades p{
+        font-size: 22px;
+    }
+
+    .img-footer a{
+        font-size: 18px;
+    }
    
 }
 
 @media (min-width: 1400px) and (max-width: 1535px) {
-    body{
-        overflow-x: hidden;
-    }
-
-    .title-home h1{
-        font-size: 65px;
-    }
-
-    .titles h2, h3{
+    .title{
         font-size: 50px;
     }
 
-    .ilustra-eu img {
-        margin-bottom: 10%;
-    }
-
-    .container-redes {
-        margin-left: 35%;
-    }
-
-    .container-redes svg{
-        width: 60px;
-        height: 60px;
-        padding: 10px;
-    }
-
-    .title{
-        font-size: 70px;
-    }
-
-    .right p{
+    .historia p{
         font-size: 22px;
     }
 
-    .right .btn{
-        margin-top: 9%;
-    }
-
-    .left2 p{
+    .text-hero p{
         font-size: 22px;
     }
-    .projects .card{
-        margin-left: 7%;
+
+    .curiosidades p{
+        font-size: 22px;
+    }
+
+    .img-footer a{
+        font-size: 20px;
     }
     
 }
 
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-    body{
-        overflow-x: hidden;
-    }
-
-    .title-home h1{
-        font-size: 65px;
-    }
-
-    .titles h2, h3{
+    .title{
         font-size: 50px;
     }
 
-    .ilustra-eu img {
-        margin-bottom: 10%;
-    }
-
-    .container-redes {
-        margin-left: 35%;
-    }
-
-    .container-redes svg{
-        width: 60px;
-        height: 60px;
-        padding: 10px;
-    }
-
-    .title{
-        font-size: 70px;
-    }
-
-    .right p{
+    .historia p{
         font-size: 22px;
     }
 
-    .right .btn{
-        margin-top: 9%;
-    }
-
-    .left2 p{
+    .text-hero p{
         font-size: 22px;
     }
-    .projects .card{
-        margin-left: 0%;
-    }
-    
 
+    .curiosidades p{
+        font-size: 22px;
+    }
+
+    .img-footer a{
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    body{
-        overflow-x: hidden;
-    }
-
-    .title-home h1{
-        font-size: 60px;
-    }
-
-    .titles h2, h3{
-        font-size: 45px;
-    }
-
-    .ilustra-eu img {
-        margin-bottom: 10%;
-    }
-
-    .right p{
-        font-size: 22px;
-    }
-
-    .left2 p{
-        font-size: 22px;
-    }
-
-    .container-redes {
-        margin-left: 35%;
-    }
-
-    .container-redes svg{
-        width: 60px;
-        height: 60px;
-        padding: 10px;
-    }
-
     .title{
-        font-size: 65px;
+        font-size: 50px;
     }
 
-    .right p{
+    .historia p{
         font-size: 20px;
     }
 
-    .right .btn{
-        margin-top: 0%;
-    }
-
-    .left2 p{
+    .text-hero p{
         font-size: 20px;
     }
 
-    .container-grid .habilidades img{
-        margin-top: 5%;
-        width: 130px;
+    .curiosidades p{
+        font-size: 20px;
     }
 
-    .projects .card{
-        margin-left: 0%;
-        width: 300px;
-        height: 325px;
+    .img-footer a{
+        font-size: 18px;
     }
     
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    nav{
-        margin-left: 0%;
-    }
-    
-    .container-grid {
-        width: 90%;
-        padding: 20px;
-        display: block;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
+    .title{
+        font-size: 45px;
     }
 
-    .title-home h1{
-        font-size: 65px;
+    .historia p{
+        font-size: 18px;
     }
 
-    .titles h2, h3{
-        font-size: 55px;
+    .text-hero p{
+        font-size: 18px;
     }
 
-    .ilustra-eu{
-        margin-bottom: 15%;
-    }
-    
-    .ilustra-eu img {
-        padding: 10px;
-        margin-top: 50px;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
+    .curiosidades p{
+        font-size: 18px;
     }
 
-    .right-home{
-        width: 300px;
+    .img-footer a{
+        font-size: 16px;
     }
-
-    .animacao-home{
-        margin-top: 50px;
-        width: 300px;
-        height: 300px;
-    }
-    
-    .animacao-home::after{
-        width: 300px;
-        height: 300px;
-    }
-
-    .container-redes {
-        margin-left: 35%;
-        width: 20%;
-        margin-top: 27%;
-        display: grid;
-        gap: 30px;
-    }
-
-    .right p{
-        font-size: 22px;
-    }
-
-    .left2 p{
-        font-size: 22px;
-    }
-
-    .left2{
-        margin-left: 0%;
-    }
-
-    .right .btn{
-        margin-top: 5%;
-        width: 40%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .eu img{
-        width: 70%;
-        margin-bottom: 10%;
-    }
-
-    #habilidades{
-        text-align: center;
-        margin-top: 5%;
-        width: 100%;
-        margin-left: -5%;
-    }
-
-    .container-grid .habilidades {
-        margin-left: 5%;
-        height: 350px;
-        padding: 20px;
-        display: grid;
-        gap: 10px;
-    }
-
-    .container-grid .habilidades img{
-        margin-top: 5%;
-        width: 130px;
-    }
-
-    .container .projects {
-        margin-left: 0%;
-        display: block;
-    }
-
-    .projects .card{
-        margin-bottom: 20px;
-        margin-left: 5%;
-        width: 90%;
-    }
-
-    .projects img{
-        background-color: #703abb;
-        width: 100%;
-        height: 200px;
-    }
-
-    .container .btn-git{
-        width: 50%;
-        font-size: 20px;
-        margin-left: 25%;
-        margin-bottom: 10%;
-    }
-
-    .footer{
-        width: 100%;
-    }    
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    nav{
-        margin-left: 0%;
-    }
-    
-    .container-grid {
-        width: 90%;
-        padding: 20px;
+    .historia{
         display: block;
-        margin-left: 5%;
-        margin-right: 5%;
+        gap: 10px;
         margin-bottom: 5%;
     }
-
-    .title-home{
-        margin-top: 15%;
-    }
-
-    .title-home h1{
-        font-size: 65px;
-    }
-
-    .titles h2, h3{
-        font-size: 55px;
-    }
-
-    .ilustra-eu{
-        margin-bottom: 15%;
-    }
     
-    .ilustra-eu img {
-        padding: 10px;
-        margin-top: 50px;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
+    .historia .timely{
+        display: none;
     }
 
-    .right-home{
-        width: 300px;
-    }
-
-    .animacao-home{
-        margin-top: 50px;
-        width: 300px;
-        height: 300px;
-    }
-    
-    .animacao-home::after{
-        width: 300px;
-        height: 300px;
-    }
-
-    .container-redes {
-        margin-left: 35%;
-        width: 20%;
-        margin-top: 27%;
-        display: grid;
-        gap: 30px;
-    }
-
-    .right p{
-        font-size: 20px;
-    }
-
-    .left2 p{
-        font-size: 20px;
-    }
-
-    .left2{
-        margin-left: 0%;
-    }
-
-    .right .btn{
-        margin-top: 5%;
-        width: 40%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
+    .herois{
         display: block;
     }
 
-    .eu img{
+    .herois h3{
+        font-size: 14px;
         width: 70%;
-        margin-bottom: 10%;
-    }
-
-    #habilidades{
-        text-align: center;
-        margin-top: 5%;
-        width: 100%;
-        margin-left: -5%;
-    }
-
-    .container-grid .habilidades {
-        width: 100%;
-        margin-left: 0%;
-        height: 350px;
-        padding: 20px;
-        display: grid;
-        gap: 10px;
-    }
-
-    .container-grid .habilidades img{
-        margin-top: 5%;
-        width: 120px;
-    }
-
-    .container .projects {
-        margin-left: 0%;
-        display: block;
-    }
-
-    .projects .card{
+        margin-left: 15%;
+        margin-top: 25px;
         margin-bottom: 20px;
-        margin-left: 5%;
-        width: 90%;
+        text-align: center;
     }
 
-    .projects img{
-        background-color: #703abb;
-        width: 100%;
-        height: 200px;
+    .heros-area{
+        display: grid;
+        margin-top: 5%;
     }
 
-    .container .btn-git{
-        width: 50%;
-        font-size: 20px;
-        margin-left: 25%;
-        margin-bottom: 10%;
+    .curiosidades p{
+        font-size: 18px;
     }
-
-    .footer{
-        width: 100%;
-    }    
-    
 }
 
 @media (min-width: 414px) and (max-width: 575px) {
-    nav{
-        margin-left: 0%;
-    }
-    
-    .container-grid {
-        width: 90%;
-        padding: 20px;
+    .historia{
         display: block;
-        margin-left: 5%;
-        margin-right: 5%;
+        gap: 10px;
         margin-bottom: 5%;
     }
-
-    .title-home{
-        margin-top: 10%;
-    }
-
-    .title-home h1{
-        font-size: 55px;
-    }
-
-    .titles h2, h3{
-        font-size: 40px;
-    }
-
-    .ilustra-eu{
-        margin-bottom: 15%;
-    }
     
-    .ilustra-eu img {
-        padding: 10px;
-        margin-top: 50px;
-        width: 90%;
-        height: 90%;
-        border-radius: 50%;
-        margin-left: 5%;
-        margin-right: 5%;
+    .historia .timely{
+        display: none;
     }
 
-    .right-home{
-        width: 300px;
-    }
-
-    .animacao-home{
-        margin-left: 20px;
-        margin-top: 50px;
-        width: 270px;
-        height: 270px;
-    }
-    
-    .animacao-home::after{
-        width: 270px;
-        height: 270px;
-    }
-
-    .container-redes {
-        margin-left: 35%;
-        width: 20%;
-        margin-top: 27%;
-        display: grid;
-        gap: 30px;
-    }
-
-    .right p{
-        font-size: 20px;
-    }
-
-    .left2 p{
-        font-size: 20px;
-    }
-
-    .left2{
-        margin-left: 0%;
-    }
-
-    .right .btn{
-        margin-top: 5%;
-        width: 40%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
+    .herois{
         display: block;
     }
 
-    .eu img{
+    .herois h3{
+        font-size: 14px;
         width: 70%;
-        margin-bottom: 10%;
-    }
-
-    #habilidades{
-        text-align: center;
-        margin-top: 5%;
-        width: 100%;
-        margin-left: -5%;
-    }
-
-    .container-grid .habilidades {
-        width: 100%;
-        margin-left: 0%;
-        height: 350px;
-        padding: 20px;
-        display: grid;
-        gap: 10px;
-    }
-
-    .container-grid .habilidades img{
-        margin-top: 5%;
-        width: 90px;
-    }
-
-    .container .projects {
-        margin-left: 0%;
-        display: block;
-    }
-
-    .projects .card{
+        margin-left: 15%;
+        margin-top: 25px;
         margin-bottom: 20px;
-        margin-left: 5%;
-        width: 90%;
+        text-align: center;
     }
 
-    .projects img{
-        background-color: #703abb;
-        width: 100%;
-        height: 200px;
+    .herois audio{
+        background-color: #E23636;
+        padding: 5px;
+        border-radius: 25px;
+        width: 70%;
+        margin-left: 15%;
     }
 
-    .container .btn-git{
-        width: 50%;
-        font-size: 20px;
-        margin-left: 25%;
-        margin-bottom: 10%;
+    .heros-area{
+        display: grid;
+        margin-top: 5%;
     }
 
-    .footer{
-        width: 100%;
-    }    
+    .curiosidades p{
+        font-size: 18px;
+    }
+    
 }
 
 @media (min-width: 390px) and (max-width: 413px) {
-    nav{
-        margin-left: 0%;
-    }
-    
-    .container-grid {
-        width: 90%;
-        padding: 20px;
+    .historia{
         display: block;
-        margin-left: 5%;
-        margin-right: 5%;
+        gap: 10px;
         margin-bottom: 5%;
     }
-
-    .title-home{
-        margin-top: 5%;
-    }
-
-    .ilustra-eu{
-        margin-bottom: 15%;
-    }
     
-    .ilustra-eu img {
-        padding: 10px;
-        margin-left: 15%;
-        margin-top: 50px;
+    .historia .timely{
+        display: none;
+    }
+
+    .herois{
+        display: block;
+    }
+
+    .herois h3{
+        font-size: 14px;
         width: 70%;
-        height: 70%;
-        border-radius: 50%;
-    }
-
-    .right-home{
-        width: 300px;
-    }
-
-    .animacao-home{
-        margin-top: 50px;
-        width: 230px;
-        height: 230px;
-        margin-left: 35px;
-    }
-    
-    .animacao-home::after{
-        width: 230px;
-        height: 230px;
-    }
-
-    .container-redes {
-        margin-left: 30%;
-        width: 20%;
-        margin-top: 27%;
-        display: grid;
-        gap: 30px;
-    }
-
-    .right p{
-        font-size: 20px;
-    }
-
-    .left2 p{
-        font-size: 20px;
-    }
-
-    .left2{
-        margin-left: 0%;
-    }
-
-    .right .btn{
-        margin-top: 0%;
-        width: 50%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    #habilidades{
-        text-align: center;
-        margin-top: 5%;
-        width: 100%;
-        margin-left: -5%;
-    }
-
-    .container-grid .habilidades {
-        width: 100%;
-        margin-left: -10%;
-        height: 350px;
-        padding: 20px;
-        display: grid;
-        gap: 20px;
-    }
-
-    .container-grid .habilidades img{
-        margin-top: 5%;
-        width: 90px;
-        margin-left: -45%;
-    }
-
-    .container .projects {
-        margin-left: 0%;
-        display: block;
-    }
-
-    .projects .card{
+        margin-left: 15%;
+        margin-top: 25px;
         margin-bottom: 20px;
-        margin-left: 5%;
-        width: 90%;
+        text-align: center;
     }
 
-    .container .btn-git{
-        width: 50%;
-        font-size: 20px;
-        margin-left: 25%;
-        margin-bottom: 10%;
+    .herois audio{
+        background-color: #E23636;
+        padding: 5px;
+        border-radius: 25px;
+        width: 70%;
+        margin-left: 15%;
     }
 
-    .footer{
-        width: 100%;
-    }    
-    
+    .heros-area{
+        display: grid;
+        margin-top: 5%;
+    }
+
+    .curiosidades{
+        display: block;
+    }
+
+    .curiosidades p{
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 389px) {
-    nav{
-        margin-left: 0%;
-    }
-    
-    .container-grid {
-        width: 90%;
-        padding: 20px;
+    .historia{
         display: block;
-        margin-left: 5%;
-        margin-right: 5%;
+        gap: 10px;
         margin-bottom: 5%;
     }
-
-    .title-home{
-        margin-top: 5%;
-    }
-
-    .ilustra-eu{
-        margin-bottom: 15%;
-    }
     
-    .ilustra-eu img {
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 50px;
+    .historia .timely{
+        display: none;
+    }
+
+    .herois{
+        display: block;
+    }
+
+    .herois h3{
+        font-size: 14px;
         width: 70%;
-        height: 70%;
-        border-radius: 50%;
-    }
-
-    .right-home{
-        width: 300px;
-    }
-
-    .animacao-home{
-        margin-top: 45px;
-        width: 230px;
-        height: 230px;
-        margin-left: 25px;
-    }
-    
-    .animacao-home::after{
-        width: 230px;
-        height: 230px;
-    }
-
-    .container-redes {
-        margin-left: 30%;
-        width: 20%;
-        margin-top: 27%;
-        display: grid;
-        gap: 30px;
-    }
-
-    .right p{
-        font-size: 20px;
-    }
-
-    .left2 p{
-        font-size: 20px;
-    }
-
-    .left2{
-        margin-left: 0%;
-    }
-
-    .right .btn{
-        margin-top: 0%;
-        width: 50%;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    #habilidades{
-        text-align: center;
-        margin-top: 5%;
-        width: 100%;
-        margin-left: -5%;
-    }
-
-    .container-grid .habilidades {
-        width: 100%;
-        margin-left: -10%;
-        height: 350px;
-        padding: 20px;
-        display: grid;
-        gap: 20px;
-    }
-
-    .container-grid .habilidades img{
-        margin-top: 5%;
-        width: 90px;
-    }
-
-    .container .projects {
-        margin-left: 0%;
-        display: block;
-    }
-
-    .projects .card{
+        margin-left: 15%;
+        margin-top: 25px;
         margin-bottom: 20px;
-        margin-left: 5%;
-        width: 90%;
+        text-align: center;
     }
 
-    .container .btn-git{
-        width: 50%;
-        font-size: 20px;
-        margin-left: 25%;
-        margin-bottom: 10%;
+    .herois audio{
+        background-color: #E23636;
+        padding: 5px;
+        border-radius: 25px;
+        width: 70%;
+        margin-left: 15%;
     }
 
-    .footer{
-        width: 100%;
-    }    
+    .heros-area{
+        display: grid;
+        margin-top: 5%;
+    }
+
+    .curiosidades{
+        display: block;
+    }
+
+    .curiosidades p{
+        font-size: 18px;
+    }
 }

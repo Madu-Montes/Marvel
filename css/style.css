@@ -122,14 +122,6 @@ main{
     margin-bottom: 5%;
 }
 
-.right-heros{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 100%;
-    gap: 10px;
-    margin-bottom: 5%;
-}
-
 .heros-area{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -144,11 +136,6 @@ main{
 .heros-area img:hover {
     width: 290px;
     transition: 0.8s;
-}
-
-.hero-img button{
-    background-color: #518CCA;
-    position: relative;
 }
 
 .herois h3{
@@ -179,7 +166,7 @@ main{
 
 .curiosidades p{
     color: white;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .footer{
@@ -213,5 +200,6 @@ a span{
 
 .img-footer h6{
     font-size: 12px;
+    margin-top: 15px;
 }
 
