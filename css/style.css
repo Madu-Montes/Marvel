@@ -6,50 +6,70 @@
     box-sizing: border-box;
 }
 
-.offcanvas-body a{
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    margin-bottom: 10%;
+
+/*menu*/
+
+html {
+    scroll-behavior: smooth;
 }
 
-.offcanvas-body a:hover{
-    background-color: #E23636;
+ul {
+    list-style: none;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav {
+    background-color: #161616;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+
+.logo img{
+    width: 150px;
+}
+
+p {
+    color: #FFF;
+}
+
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+ul a{
+    text-decoration: none;
 }
 
 main{
     background-color: #1f1f1f;
     height: 100vh;
-}
-.offcanvas-body{
-    background-color: black;
-}
-
-.navbar-logo{
-    width: 150px;
-}
-
-.gif{
-    width: 50%;
-    margin-left: 25%;
-}
-
-.gif:hover{
-    display: none;
-    transition: 0.10s;
-}
-
-.gif-active{
-    width: 80%;
-    margin-left: 10%;
-}
-
-.carousel-inner{
-    width: 100%;
-    margin-top: 50px;
-}
-
-.container .carousel-inner{
-    width: 100%;
 }
 
 .container-fluid{
@@ -57,7 +77,7 @@ main{
 }
 
 .title{
-    color: #E23636;
+    color: #C72523;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -65,26 +85,7 @@ main{
     letter-spacing: 1px;
 }
 
-.historia{
-    display: grid;
-    grid-template-columns: 48% 1% 51%;
-    grid-template-rows: 100%;
-    gap: 10px;
-    margin-bottom: 5%;
-}
 
-.historia .timely{
-    width: 60%;
-    height: 80%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.historia a{
-    color: #518CCA;
-    font-size: 12px;
-    float: right;
-}
 
 .left{
     color: white;
@@ -104,14 +105,18 @@ main{
     color: white;
 }
 
-.text-hero p{
+.descricao{
+    display: none;
     color: white;
-    margin-top: 15%;
-    font-size: 18px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
+
+
+.item-hero:hover .descricao{
+    display: block;
+}
+
+
+
 
 .herois{
     display: grid;
@@ -149,7 +154,7 @@ main{
 }
 
 .herois audio{
-    background-color: #E23636;
+    background-color: #C72523;
     padding: 5px;
     border-radius: 25px;
     width: 50%;
@@ -186,7 +191,7 @@ main{
 }
 
 .voltartopo a{
-    color: #E23636;
+    color: #C72523;
     text-decoration: none;
 }
 
