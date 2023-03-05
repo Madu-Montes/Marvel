@@ -1,32 +1,5 @@
-@media (min-width: 1921px) and (max-width: 2000px) {
-    
-   
-}
+@media (max-width: 767px) {
 
-@media (min-width: 1536px) and (max-width: 1920px) {
-    
-   
-}
-
-@media (min-width: 1400px) and (max-width: 1535px) {
-   
-}
-
-
-@media (min-width: 1200px) and (max-width: 1399px) {
-    
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    
-    
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-   
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
     nav,
     ul {
         flex-direction: column;
@@ -59,18 +32,4 @@
     ul.responsivo {
         height: 260px;
     }
-
-    
-}
-
-@media (min-width: 414px) and (max-width: 575px) {
-    
-}
-
-@media (min-width: 390px) and (max-width: 413px) {
-    
-}
-
-@media (min-width: 360px) and (max-width: 389px) {
-    
 }
