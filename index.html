@@ -1,19 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Marvel | Fanpage</title>
-  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>StudioGhibli | Catálogo</title>
 </head>
 
 <body>
-  <nav>
+  <!--Menu-->
+  <header>
     <div class="logo">
-      <img src="./imgs/logoBlack.jpg" alt="logo da marvel">
+      <img src="./imgs/logoBlack.jpg" alt="">
     </div>
     <button onclick="abrirMenu()">&#9776;</button>
     <ul id="botoesMenu">
@@ -38,39 +40,228 @@
         </li>
       </a>
     </ul>
-  </nav>
 
-  <div class="container">
-    <div class="welcome">
-      <div class="img-intro">
-        <img src="./imgs/spiderMain.png" alt="">
+    <script>
+      const arrayHeight = document.getElementsByClassName('height-nav');
+      const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+
+      for (let navHeightObj of arrayHeight)
+        navHeightObj.style.height = navHeight + 'px';
+
+      function abrirMenu() {
+        const botoesMenu = document.getElementById('botoesMenu');
+
+        botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+      }
+    </script>
+  </header>
+  <!--Menu-->
+
+  <!--Project-->
+
+  <main>
+    <div id="welcome">
+      <div class="welcome-img">
+        <img src="./imgs/spiderMain.svg" alt="#">
       </div>
-      <div class="title-welcome">
-        <h1>OLÁ NERDOLAS!</h1>
-        <h2>SEJAM BEM VINDO A NOSSA FANPAGE MARVEL</h2>
+      <div class="welcome-titles">
+        <h1>Olá nerdolas! Sejam bem vindos(as) a Fanpage da Marvel por @Madu-Montes</h1>
       </div>
     </div>
 
-    <div class="herois">
-      
+    <div id="welcome">
+      <div class="welcome-img">
+        <img src="./imgs/spiderMain.svg" alt="#">
+      </div>
+      <div class="welcome-titles">
+        <h1>Olá nerdolas! Sejam bem vindos(as) a Fanpage da Marvel por @Madu-Montes</h1>
+      </div>
     </div>
+
+    <div id="herois">
+      <h1>HERÓIS</h1>
+      <div class="carrossel">
+        <section>
+          <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/captain.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/ironMan.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/blackwidow.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/hulk.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/hawkey.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/doctorStrange.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/captain.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/captain.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+
+        </section>
+      </div>
+    </div>
+    <div id="herois">
+      <h1>VILÕES</h1>
+      <div class="carrossel">
+        <section>
+          <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/captain.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/ironMan.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/blackwidow.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/hulk.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/hawkey.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/doctorStrange.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/captain.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="./imgs/captain.png" alt="#">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer">
+
   </div>
-
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
-    const arrayHeight = document.getElementsByClassName('height-nav');
-    const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
-
-    for (let navHeightObj of arrayHeight)
-      navHeightObj.style.height = navHeight + 'px';
-
-    function abrirMenu() {
-      const botoesMenu = document.getElementById('botoesMenu');
-
-      botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPergroup: 3,
+      loop: true,
+      loopFillGroupWithBlack: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "swiper-button-next",
+        prevEl: "swiper-button-prev",
+      }
     }
+    )
   </script>
-
-
 </body>
 
 </html>
