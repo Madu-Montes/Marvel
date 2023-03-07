@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&display=swap');
 
 *{
     margin: 0;
@@ -8,10 +7,10 @@
 }
 
 body{
-    background: rgb(30,30,30);
-background: radial-gradient(circle, rgba(30,30,30,1) 0%, rgba(64,5,7,1) 100%);
+    background-color: #0f0f0f;
     height: 100vh;
     color: #FFF;
+    font-family: 'Inter', sans-serif;
 }
 
 header{
@@ -42,6 +41,11 @@ header {
 p {
     color: #FFF;
     text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -74,12 +78,15 @@ button {
     display: none;
 }
 
-a:hover,
-h1:hover,
-button:hover {
+
+#botoesMenu a:hover{
     cursor: pointer;
     opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #f0141e;
+    border: 1px solid #f0141e;
+    height: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
 }
 
 .content {
@@ -88,14 +95,11 @@ button:hover {
 }
 
 main{
-    /*background-color: blueviolet;*/
-    
     width: 80%;
     margin-left: 10%;
 }
 
 /*welcome*/
-
 #welcome{
     display: grid;
     grid-template-columns: 50% 50%; 
@@ -103,18 +107,50 @@ main{
 }
 
 #welcome img{
-    width: 70%;
+    width: 60%;
 }
 
 .welcome-titles{
-    background-color: black;
-    width: 70%;
+    width: 90%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
 }
 /* the end welcome*/
 
+
+/*history*/
+#history{
+    height: 90vh;
+    margin: 25px 0px;
+}
+
+#history h1{
+    margin-top: 15px;
+}
+
+.history-coluns{
+    display: grid;
+    grid-template-columns: 60% 40%; 
+    margin: 25px 15px;
+    gap: 30px;
+}
+
+#history img{
+    width: 70%;
+}
+
+.history-marvel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+/* the end history*/
 
 /*carrossel herois e vilões*/
 
@@ -196,8 +232,21 @@ section .card .image img:hover{
 /*footer*/
 
 .footer{
-    background-color: chartreuse;
+    background-color: #f0141e;
     height: 150px;
     margin: 10px 0;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-footer img{
+    width: 20%;
+}
+
+span a{
+    color: black;
 }
 
