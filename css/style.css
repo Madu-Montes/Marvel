@@ -102,7 +102,8 @@ main {
 h1{
     font-family: Anton;
     font-size: 45px;
-    margin-top: 25px;
+    margin: 30px auto;
+
 }
 
 /*welcome*/
@@ -206,7 +207,6 @@ h1{
     height: 80%;
     width: 86%;
     margin-top: 10%;
-
 }
 
 /* the end history*/
@@ -289,9 +289,34 @@ section .card .image img:hover {
     color: #B55B46;
 }
 
-/*viloes*/
+/*villains*/
+.villainsMain{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
 
+.villainsImg img{
+    width: 100%;
+}
 
+.villainsCards{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+.cardBox{
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.cardBox img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
