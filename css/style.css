@@ -38,7 +38,7 @@ header {
     top: 0;
 }
 
-p {
+#botoesMenu p {
     color: #FFF;
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
@@ -97,6 +97,12 @@ button {
 main {
     width: 80%;
     margin-left: 10%;
+}
+
+h1{
+    font-family: Anton;
+    font-size: 45px;
+    margin-top: 25px;
 }
 
 /*welcome*/
@@ -178,7 +184,7 @@ main {
 /*history*/
 
 .historyMain{
-    background-color: cadetblue;
+    height: 100vh;
     display: grid;
     grid-template-columns: 25% 25% 50%;
 }
@@ -187,10 +193,19 @@ main {
     background-color: #FD141E;
     width: 230px;
     padding: 10px;
+    margin-top: 20%;
 }
 
-.historyText{
+.card2 img{
+    margin-top: 80%;
+}
+
+.historyText p{
     font-size: 16px;
+    display: flex;
+    height: 80%;
+    width: 86%;
+    margin-top: 10%;
 
 }
 
@@ -274,29 +289,9 @@ section .card .image img:hover {
     color: #B55B46;
 }
 
-/*curiosidades*/
+/*viloes*/
 
-.curiosidades-main {
-    padding: 25px 0;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: -25px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
 
-}
-
-.card-curio {
-    width: 280px;
-    height: 280px;
-    margin: 25px auto;
-    border-radius: 10px;
-    background-color: #FFF;
-    color: #0f0f0f;
-    padding: 20px;
-}
 
 
 
